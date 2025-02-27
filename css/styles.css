@@ -153,6 +153,7 @@ ul {
   color: #fff;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .section-one-button {
   font-family: inherit;
@@ -288,7 +289,6 @@ ul {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .footer-p {
   font-weight: 400;
