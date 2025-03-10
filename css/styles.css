@@ -151,6 +151,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .section-one-h {
   font-weight: 700;
@@ -170,7 +171,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
@@ -178,6 +179,10 @@ ul {
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background: #4d5ae5;
 }
 .section-one-button:hover,
 .section-one-button:focus {
