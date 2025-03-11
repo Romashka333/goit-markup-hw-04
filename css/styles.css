@@ -267,6 +267,8 @@ ul {
   background-color: #fff;
   width: calc((100% -72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .bass {
   padding: 32px 0;
@@ -366,4 +368,32 @@ ul {
 }
 .icon {
   margin: 24px 100px;
+}
+.icon-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 8px;
+}
+.iconli {
+  width: 40px;
+  height: 40px;
+}
+.icon-a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.icon-a:hover,
+.icon-a:focus {
+  background-color: #404bbf;
+}
+.icon-svg {
+  fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
