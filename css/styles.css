@@ -165,6 +165,8 @@ ul {
 }
 
 .section-one {
+  display: block;
+  margin: 0 auto;
   background: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -203,7 +205,7 @@ ul {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  transition-property: background-color;
+  transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background: #4d5ae5;
@@ -387,6 +389,9 @@ ul {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-a:hover,
 .icon-a:focus {
