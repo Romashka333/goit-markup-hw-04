@@ -357,10 +357,11 @@ ul {
   height: 112px;
   background-color: #f4f4fd;
   margin-bottom: 8px;
-}
-.icon-cube {
   align-items: center;
   justify-content: center;
+  display: flex;
+}
+.icon-cube {
 }
 .icon {
   display: block;
