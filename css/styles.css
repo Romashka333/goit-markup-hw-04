@@ -350,7 +350,19 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
 }
+.con {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+.icon-cube {
+  align-items: center;
+  justify-content: center;
+}
 .icon {
-  display: flex;
-  margin: 0 auto;
+  display: block;
+  margin: 24px 100px;
 }
