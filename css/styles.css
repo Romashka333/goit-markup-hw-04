@@ -350,3 +350,7 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
 }
+.icon {
+  display: flex;
+  margin: 0 auto;
+}
