@@ -362,8 +362,8 @@ ul {
   display: flex;
 }
 .icon-cube {
+  display: block;
 }
 .icon {
-  display: block;
   margin: 24px 100px;
 }
