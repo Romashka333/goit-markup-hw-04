@@ -432,3 +432,7 @@ ul {
   letter-spacing: 0.03em;
   color: #f4f4fd;
 }
+.div-con {
+  display: flex;
+  align-items: baseline;
+}
