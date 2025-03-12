@@ -326,8 +326,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-four-des:focus,
-.section-four-des:hover p {
+
+.section-four-li:hover p {
   transform: translateY(0%);
 }
 
