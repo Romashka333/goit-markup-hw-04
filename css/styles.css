@@ -311,12 +311,6 @@ ul {
   transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-four-li:hover,
-.section-four-li:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
-}
 
 .section-four-fun {
   font-weight: 500;
@@ -325,9 +319,6 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-.section-four-fun:hover {
-  transform: translateY(0%);
 }
 
 .section-four-des {
@@ -341,6 +332,14 @@ ul {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.home:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .footer-p {
   font-weight: 400;
